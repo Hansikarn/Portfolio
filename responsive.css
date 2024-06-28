@@ -1,0 +1,211 @@
+/* Common Section Styles */
+.section {
+    padding: 0 2rem; /* Reduce padding for smaller screens */
+    background-image: linear-gradient(45deg, #363d73, #f8317a);
+    text-align: center;
+}
+
+.section-heading .my-heading {
+    font-size: 2.5rem; /* Decrease font size for smaller screens */
+}
+
+.section-content .my-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center align items */
+    margin-top: 2rem;
+}
+
+.section-content .my-col {
+    width: calc(50% - 1rem); /* Adjust column width for smaller screens */
+    margin: 0.5rem; /* Adjust margins for spacing */
+}
+
+.section-content .my-card {
+    padding: 1.5rem;
+}
+
+.section-content .my-card h3 {
+    font-size: 1.8rem; /* Decrease font size for smaller screens */
+}
+
+.section-content .small-para {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #181818;
+    margin-bottom: 1rem;
+}
+
+.btn {
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem; /* Decrease button font size */
+}
+
+/* Experience Section Styles */
+.experience-content .my-col {
+    width: 100%; /* Full width for smaller screens */
+    margin-bottom: 2rem; /* Add space between items */
+}
+
+.experience-content .my-card {
+    padding: 1.5rem;
+}
+
+.experience-content .my-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.experience-content .small-para {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #181818;
+    margin-bottom: 1rem;
+}
+
+/* Education Section Styles */
+.education-content .my-col {
+    width: 100%; /* Full width for smaller screens */
+    margin-bottom: 2rem; /* Add space between items */
+}
+
+.education-content .my-card {
+    padding: 1.5rem;
+}
+
+.education-content .my-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.education-content .small-para {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #181818;
+    margin-bottom: 1rem;
+}
+
+/* Projects Section Styles */
+.projects-content .my-row {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.projects-content .my-col {
+    width: calc(50% - 1rem); /* Adjust column width for smaller screens */
+    margin: 0.5rem; /* Adjust margins for spacing */
+}
+
+.projects-content .my-card {
+    padding: 1.5rem;
+}
+
+.projects-content .my-card h3 {
+    font-size: 1.8rem; /* Decrease font size for smaller screens */
+}
+
+.projects-content .small-para {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #181818;
+    margin-bottom: 1rem;
+}
+
+/* Footer Section Styles */
+.footer-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    padding: 2rem 0;
+}
+
+.social-icons {
+    margin-top: 1rem;
+}
+
+.social-icon {
+    font-size: 24px;
+    margin: 0 10px;
+}
+
+/* About Section Styles */
+.about-content {
+    flex-direction: column; /* Stack content vertically on smaller screens */
+}
+
+.about-text {
+    max-width: 100%; /* Full width for smaller screens */
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.about-text .my-heading {
+    font-size: 2.5rem; /* Decrease font size for smaller screens */
+}
+
+.about-image {
+    max-width: 100%; /* Full width for smaller screens */
+}
+
+.about-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Hero Banner Section Styles */
+#home.hero {
+    padding: 10rem 0; /* Adjusted padding */
+}
+
+.intro {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.headings {
+    margin-bottom: 2rem;
+}
+
+.greet-heading {
+    font-size: 4rem;
+}
+
+.my-heading {
+    font-size: 2.5rem;
+}
+
+.sub-heading {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+}
+
+.intro-buttons {
+    margin-top: 2rem;
+}
+
+/* Navbar Header Section Styles */
+.header {
+    padding: 1rem 0;
+}
+
+.navbar {
+    padding: 0 1rem;
+}
+
+.logo-image {
+    width: 32px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.menu-list-items {
+    margin-right: 1rem;
+}
+
+.links {
+    font-size: 1rem;
+}

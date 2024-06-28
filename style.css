@@ -335,7 +335,7 @@
 .my-row {
     display: flex;
     justify-content: space-around;
-    flex-wrap: wrap;
+    flex-wrap:nowrap;
     margin-top: 2rem;
 }
 
@@ -386,6 +386,7 @@
     text-align: center;
     position: relative; /* Ensure relative positioning for text overlay */
     width: 100%;
+    
 }
 
 .intro {
