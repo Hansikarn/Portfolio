@@ -8,12 +8,12 @@ hamburger.addEventListener('click', function() {
 
     if (hamIcon.style.display === "none") {
         hamIcon.style.display = "inline-block";
-        menu.style.display = "none";
         crossIcon.style.display = "none";
+        menu.style.display = "none";
     } else {
-        crossIcon.style.display = "inline-block";
         hamIcon.style.display = "none";
-        menu.style.display = "block";
+        crossIcon.style.display = "inline-block";
+        menu.style.display = "flex"; // Assuming your menu uses flexbox
     }
 });
 
